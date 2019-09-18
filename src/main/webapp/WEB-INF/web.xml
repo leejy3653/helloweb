@@ -13,14 +13,31 @@
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
 
-	<servlet>
+<!--  	<servlet>
 		<servlet-name>HelloServlet</servlet-name>
 		<servlet-class>kr.co.itcen.controller.HelloServlet</servlet-class>
 	</servlet>
-
 	<servlet-mapping>
 		<servlet-name>HelloServlet</servlet-name>
 		<url-pattern>/hello</url-pattern>
 	</servlet-mapping>
-
+	
+	<servlet>
+		<servlet-name>TableServlet</servlet-name>
+		<servlet-class>kr.co.itcen.controller.TableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TableServlet</servlet-name>
+		<url-pattern>/table</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>JoinServlet</servlet-name>
+		<servlet-class>kr.co.itcen.controller.JoinServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JoinServlet</servlet-name>
+		<url-pattern>/join</url-pattern>
+	</servlet-mapping> -->
+ 
 </web-app>
